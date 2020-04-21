@@ -47,10 +47,6 @@ def main():
         Datacenter(key, value)
         for key, value in data.items()
     ]
-    for x in datacenters:
-        print(x.__str__())
-
-
 
 if __name__ == '__main__':
     main()
